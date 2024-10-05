@@ -107,7 +107,6 @@ export default function Home() {
             .map((project) => (
               <Projects
                 key={project.id}
-                id={project.id}
                 image={darkMode?project.darkImage:project.image}
                 title={project.title}
                 subtitle={project.subtitle}

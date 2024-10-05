@@ -3,7 +3,6 @@ import GitSmallIcon from './GitSmallIcon';
 import "../styles/projects.css"
 
 interface ProjectProps {
-    id: number;
     image: string;
     title: string;
     subtitle: string;
@@ -13,7 +12,7 @@ interface ProjectProps {
     darkMode: boolean;
 }
 
-const Projects: React.FC<ProjectProps> = ({ id, image, title, subtitle, languages, acessUrl, gitUrl, darkMode}) => {
+const Projects: React.FC<ProjectProps> = ({image, title, subtitle, languages, acessUrl, gitUrl, darkMode}) => {
     return (
         <div className="project flex-column">
             <div className="project-inside flex-column">
