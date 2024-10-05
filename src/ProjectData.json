@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "../../public/assets/desktop-group.svg",
+    "darkImage": "../public/assets/desktop-dark-group.svg",
+    "title": "Web Page",
+    "subtitle": "Family Business",
+    "languages": ["React", "TypeScript", "HTML5", "CSS"],
+    "acessUrl": "https://autopostogrando.netlify.app/",
+    "gitUrl": "https://github.com/luisgfinger/apg"
+  },
+  {
+    "id": 2,
+    "image": "../../public/assets/desktop-group.svg",
+    "darkImage": "../public/assets/desktop-dark-group.svg",
+    "title": "Web Page",
+    "subtitle": "Family Business",
+    "languages": ["React", "TypeScript", "HTML5", "CSS"],
+    "acessUrl": "https://autopostogrando.netlify.app/",
+    "gitUrl": "https://github.com/luisgfinger/apg"
+  },
+  {
+    "id": 3,
+    "image": "../../public/assets/desktop-group.svg",
+    "darkImage": "../public/assets/desktop-dark-group.svg",
+    "title": "Web Page",
+    "subtitle": "Family Business",
+    "languages": ["React", "TypeScript", "HTML5", "CSS"],
+    "acessUrl": "https://autopostogrando.netlify.app/",
+    "gitUrl": "https://github.com/luisgfinger/apg"
+  }
+]

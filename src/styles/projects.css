@@ -1,0 +1,70 @@
+.project{
+  border-radius: 10px;
+  width: 18.75rem;
+  height: 28.5rem;
+  align-items: center;
+  border: 1px solid;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+  .project-inside{
+    width: 90%;
+    height: 28.12rem;
+  }
+  
+  .desktop-group{
+    width: 206px;
+    height: 189.4px;
+    align-self: center;
+  }
+
+  .desktop-group >img{
+    width: 206px;
+    height: 183px;
+  }
+  
+  .titles{
+    text-align: center;
+    align-self: center;
+  }
+  
+  .languages{
+    margin-top: 5%;
+  }
+  
+  .acess-button{
+    align-self: center;
+    margin-top: 8%;
+  }
+
+ 
+  .gitCall{
+    align-content: center;
+    align-items: center;
+    width: 8.12rem;
+    align-self: center;
+    margin-top: 4%;
+  }
+  
+  .gitCall > a{
+    font-size: var(--button-fontSize);
+    font-weight: var(--button-fontWeight);
+    margin-left: 3%;
+    transition: color 0.3s ease;
+  }
+
+  .gitCall > a:hover{
+    color: var(--text-color);
+    font-size: var(--button-fontSize) !important;
+  }
+
+  body.dark-mode .gitCall>a:hover{
+    color: var(--text-dark-color);
+  }
+
+  @media(max-width: 1280px){
+    .project{
+      margin-top: 1%;
+    }
+
+  }

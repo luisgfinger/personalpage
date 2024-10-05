@@ -1,0 +1,134 @@
+header { 
+  width: 50rem;
+  height: 6.06rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+nav {
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo {
+  margin-top: 2%;
+  width: 9.37rem;
+  height: 6.25rem;
+  color: white;
+}
+
+.logo.dark-mode{
+  color: var(--bg-color);
+}
+
+ul {
+  gap: 3.12rem;
+}
+
+#about{
+  justify-content: center;
+}
+
+#about .personal-photo {
+  align-self: center;
+}
+
+#about .titles{
+ text-align: start;
+}
+
+#about .text {
+  margin-left: 2rem;
+  align-self: center;
+}
+
+#about .languages {
+  margin-top: 5%;
+}
+
+#about .icons {
+  margin-top: 10%;
+}
+
+#myProjects{
+  align-items: center;
+}
+
+#myProjects .projectChoise{
+  margin-top: 2%;
+  gap: 1rem;
+}
+
+#contact{
+ margin-top: 10%;
+ width: 65rem;
+ align-items: center;
+}
+
+#contact .contact-icons{
+  margin-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+
+@media (max-width: 1280px) {
+  header{
+    width: 25rem;
+    justify-content: center;
+  }
+
+  #about .personal-photo >img{
+    width: 15rem;
+    height: 14rem;
+  }
+
+  *{
+    font-size: var(--regular-size) !important;
+  }
+
+  .logo{
+    width: 9.37rem;
+    height: 6.25rem;
+  }
+  .logo >img{
+    width: 100%;
+  }
+
+  #about{
+    margin-top: 8%;
+    align-self: center;
+  }
+
+  #about .text {
+    margin-left: 0;
+  }
+
+  #about .icons {
+    width: 12.5rem;
+  }
+
+  #about .icons >img{
+    width: 100%;
+  }
+
+  #myProjects{
+    margin-top: 8%;
+  }
+
+  #contact .contact-icons{
+    width: 20rem;
+  }
+
+  #contact .contact-icons >img{
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+
