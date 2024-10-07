@@ -1,5 +1,5 @@
-import Contacts from '../assets/contact.svg'
-import DarkContact from '../assets/dark-contact.svg'
+import Contacts from '../assets/icons/contact.svg'
+import DarkContact from '../assets/icons/dark-contact.svg'
 
 interface ContactProps{
     darkMode: boolean;

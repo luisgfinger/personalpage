@@ -1,5 +1,5 @@
-import GitIcon from '../assets/github-smallIcon.svg'
-import DarkGitIcon from '../assets/git-dark-icon.svg'
+import GitIcon from '../assets/icons/github-smallIcon.svg'
+import DarkGitIcon from '../assets/icons/git-dark-icon.svg'
 
 interface GitIconProps{
     darkMode: boolean;

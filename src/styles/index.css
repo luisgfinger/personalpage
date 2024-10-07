@@ -10,6 +10,7 @@
   font: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 :root {
@@ -84,9 +85,12 @@ body.dark-mode button:hover{
 }
 
 @media (max-width: 1280px) {
+  html, body{
+    overflow-x: hidden;
+  }
  .container{
   width: 25rem;
-  height: fit-content;
+  height: auto;
  }
 
  .desktop-only{

@@ -113,8 +113,13 @@ ul {
     width: 100%;
   }
 
+
   #myProjects{
     margin-top: 8%;
+  }
+
+  #myProjects .projectChoise{
+    margin-bottom: 3%;
   }
 
   #contact .contact-icons{
