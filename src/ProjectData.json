@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "../../public/assets/desktop-group.svg",
+    "image": "/assets/desktop-group.svg",
     "darkImage": "../public/assets/desktop-dark-group.svg",
     "title": "Web Page",
     "subtitle": "Family Business",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "image": "../../public/assets/desktop-group.svg",
+    "image": "/assets/desktop-group.svg",
     "darkImage": "../public/assets/desktop-dark-group.svg",
     "title": "Web Page",
     "subtitle": "Family Business",
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "image": "../../public/assets/desktop-group.svg",
+    "image": "/assets/desktop-group.svg",
     "darkImage": "../public/assets/desktop-dark-group.svg",
     "title": "Web Page",
     "subtitle": "Family Business",
