@@ -7,6 +7,7 @@ import Projects from "../components/Projects";
 import projectData from "../ProjectData.json";
 import Contact from "../components/Contact";
 import Button from "../components/Button";
+import Favicon from "../components/Favicon";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -50,6 +51,7 @@ export default function Home() {
   return (
     <>
       <header className="flex-row">
+        <Favicon darkMode={darkMode}/>
         <span className="logo">
           <Logo darkMode={darkMode}/>
         </span>
