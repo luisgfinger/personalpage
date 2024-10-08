@@ -2,7 +2,7 @@
   {
     "id": 1,
     "image": "/assets/desktop-group.svg",
-    "darkImage": "../public/assets/desktop-dark-group.svg",
+    "darkImage": "/assets/desktop-dark-group.svg",
     "title": "Web Page",
     "subtitle": "Family Business",
     "languages": ["React", "TypeScript", "HTML5", "CSS"],
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "image": "/assets/desktop-group.svg",
-    "darkImage": "../public/assets/desktop-dark-group.svg",
+    "darkImage": "/assets/desktop-dark-group.svg",
     "title": "Web Page",
     "subtitle": "Family Business",
     "languages": ["React", "TypeScript", "HTML5", "CSS"],
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "image": "/assets/desktop-group.svg",
-    "darkImage": "../public/assets/desktop-dark-group.svg",
+    "darkImage": "/assets/desktop-dark-group.svg",
     "title": "Web Page",
     "subtitle": "Family Business",
     "languages": ["React", "TypeScript", "HTML5", "CSS"],
